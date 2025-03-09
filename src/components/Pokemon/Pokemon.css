@@ -1,0 +1,28 @@
+.pokemon{
+/* The flex-basis CSS property sets the initial main size of a flex item.  */
+    flex-basis: 30%;
+
+    margin-top: 2rem;
+    height: 200px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokemon-name{
+    font-size: larger;
+    letter-spacing: 0.2rem;
+}
+
+.pokemon-image{
+    margin-top: 1rem;
+    height: 150px;
+    max-height: 80%;
+}
+
+.pokemon:hover{
+    background-color:grey;
+   
+    
+}
